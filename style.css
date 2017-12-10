@@ -138,21 +138,24 @@ background-color:#70A7BF;
   
 }
 .menu-item {
-  flex: 1;
+  flex:1;
   text-align: center;
   color: white;
   background-color:lightgrey;
-  box-sizing: border-box;
+  box-sizing:border-box;
   line-height: 1.65;
   padding: 1em 0em;
   margin: 1em;
   flex-basis: 30%;
   transition-property: background-color, border-radius;
   transition-duration: 2s, 1s;
+  width:150px;
+  height:100px;
+   
 }
 
 .menu-layout {
-  display: flex;
+  flex:1;
   margin: 0px auto;
   max-width: 930px;
   width: 100%;
