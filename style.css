@@ -17,6 +17,7 @@ font-family: 'Josefin Slab', serif;
   max-width:900px;
   margin:auto ;
   padding: 0 30px ;
+  margin-top:150px;
 }
 
 #showcase {
@@ -31,7 +32,7 @@ font-family: 'Josefin Slab', serif;
   animation-duration:3s;
   animation-fill-mode:forwards;
   
-}
+} 
 
 @Keyframes floatingdown {
   0%   {top: -60px;}
@@ -137,6 +138,15 @@ a:active {
 background-color:#70A7BF;
   
 }
+
+.call-outs-container {
+  max-width: 900px;
+  margin: 20px auto 0 auto;
+  display:flex;
+  justify-content: space-between;
+  margin-right:145px;
+}
+
 .menu-item {
   flex:1;
   text-align: center;
@@ -156,23 +166,13 @@ background-color:#70A7BF;
 
 .menu-layout {
   flex:1;
-  margin: 0px auto;
+  margin:0px auto;
   max-width: 930px;
   width: 100%;
   justify-content: space-between;
 }
 
 
-.main-column {
-  flex: 2;
-  order: 1;
-  padding-right: 20px;
-}
-
-.sidebar-two {
-  flex: 1;
-  order: 2;
-}
 
 
 .city {
@@ -181,6 +181,10 @@ background-color:#70A7BF;
     padding: 10px;
     font-family: 'Slabo 13px', serif;
     font-size:200%;
+    display:flex;
+    margin-top:120px;
+    padding-right: 40px;
+    
 }
 
 .why {
@@ -189,47 +193,50 @@ background-color:#70A7BF;
     padding: 10px;
     font-family: 'Molengo', sans-serif;
     font-size:150%;
-}
-
-.column-layout { 
- max-width: 800px;
-
-margin:40px auto 0 auto;
-line-height:1.65;
-padding:20px 40px;
-display:flex;
-font-family: 'Work Sans', sans-serif;
+    
   
 }
 
-  
+.column-layout {
+  max-width: 800px;
+  margin: 10px auto 0 auto;
+  line-height: 1.65;
+  padding: 20px 50px;
+  display: flex;
+  background-color:#70A7BF;
+  font-family: 'Molengo', sans-serif;
+}
+
+
+.main-column {
+  flex: 2;
+  order: 1;
+ padding-right: 40px;
+}
+.sidebar-two {
+  flex: 1;
+  order: 2;
+}
+
 
 .call-outs-container {
   max-width: 900px;
   margin: 20px auto 0 auto;
   display:flex;
   justify-content: space-between;
+  margin-top:500px;
 }
 
-.call-out {
-padding:20px;
-box-sizing:border-box;
-margin-bottom:20px;
-flex:1;
-width:30%;
-
-}
 .call-out {
   padding: 20px;
   box-sizing: border-box;
   margin-bottom: 20px;
   flex-basis: 49%;
-}
-.main-column {
-  flex: 2;
-  order: 1;
-  padding-right: 40px;
-}
+  
+} 
+  
+
+
 
 .sidebar-two {
   flex: 1;
@@ -246,5 +253,13 @@ width:30%;
         margin: 20px;
        }
     
+    .products{
+       font-family: 'Molengo', sans-serif;
+        margin: 10px auto 0 auto;
+        color:white;
+        display:block;
+    }
+
+
 
 
